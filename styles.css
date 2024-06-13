@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* Align items to the start of the form */
+    max-width: 400px; /* Set max-width for the form */
+    margin: 0 auto;  /* Center the form horizontally */
+}
+
+#contactForm label {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#contactForm input, #contactForm textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Set width to 100% of the form's max-width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-family: 'Roboto', sans-serif;
+}
+
+#contactForm button {
+    margin-top: 10px;
+    padding: 10px 20px; /* Adjust padding for the button */
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#contactForm button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: static; /* Change to static positioning */
+    width: 100%;
+    margin-top: 20px; /* Add margin to provide space between content and footer */
+}
